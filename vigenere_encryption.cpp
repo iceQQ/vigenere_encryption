@@ -7,7 +7,9 @@ int main(){
     string word,key,newkey,neword[50],kappa;
     int i,c=0,key1,word1,sum;
     char wc,kc,sum1;
+    cout << "Enter word to encrypt(max 2 words): " << endl;
     getline(cin,word);
+    cout << "Enter encryption Keyword: " << endl;
     getline(cin,key);
     newkey=key+key+key+key+key+key+key+key;
 
