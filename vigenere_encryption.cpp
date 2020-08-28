@@ -8,7 +8,9 @@ int main(){
     string word,key,newkey,neword[50],kappa;
     int i,c=0,key1,word1,sum;
     char wc,kc,sum1;
+    cout << endl << "TEXT TO ENCRYPT: ";
     getline(cin,word);
+    cout << endl << "KEYWORD: ";
     getline(cin,key);
     newkey=key+key+key+key+key+key+key+key+key+key+key+key+key+key+key;
 
